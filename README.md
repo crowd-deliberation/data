@@ -1,7 +1,5 @@
 # Crowd Deliberation
 
--
-
 This is the official repository of the Crowd Deliberation data set. There are three different files with relevant data:
 
 * [**data.csv**](data.csv) which lists all 80 texts that were analyzed in the study: 40 from the Sarcasm data set, and 40 from the Relation data set.
@@ -10,7 +8,7 @@ This is the official repository of the Crowd Deliberation data set. There are th
 
 ### Columns in data.csv
 
--
+---
 
 * **DATASET**: the identifier of the data set that text belongs to; either "deliberation-sarcasm" or "deliberation-relation-person-place"
 * **DATA\_ID**: the unique numeric ID of that text, used to match entries in labels.csv and deliberations.csv
@@ -19,7 +17,7 @@ This is the official repository of the Crowd Deliberation data set. There are th
 
 ### Columns in labels.csv
 
--
+---
 
 * **DATA\_ID**: the numeric ID of the text that label was given for
 * **DATASET**: the data set this text belongs to
@@ -36,7 +34,7 @@ This is the official repository of the Crowd Deliberation data set. There are th
 
 ### Columns in deliberations.csv
 
--
+---
 
 * **DELIBERATION\_ID**: The unique numeric ID of that deliberation
 * **DATA\_ID**: The numeric ID of the text discussed in that deliberatino 
